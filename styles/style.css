@@ -1,0 +1,273 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.eb-garamond-font {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+}
+
+nav {
+  max-width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 60px auto;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #707070;
+  font-family: "Poppins", sans-serif;
+}
+
+nav button {
+  background-color: #b68c5a;
+  font-family: "Poppins", sans-serif;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  color: #fff;
+  height: 64px;
+  width: 220px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#banner {
+  background: url("../images/Rectangle\ 5.png"), url("../images/banner.png");
+  width: 80%;
+  background-position: center, center;
+  background-repeat: no-repeat no-repeat;
+  background-size: cover, cover;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  border-radius: 8px;
+  margin: 0 auto 120px;
+}
+
+#banner .banner-container {
+  max-width: 55%;
+}
+
+#banner .banner-container h1 {
+  color: #fff;
+  font-size: 4.5rem;
+  font-weight: 900;
+  line-height: 85px;
+  margin-bottom: 24px;
+}
+
+#banner .banner-container p {
+  color: #e7e7e7;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 32px;
+}
+
+#banner .banner-container .search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+#banner .banner-container .search-box input {
+  height: 3.5rem;
+  width: 31rem;
+  outline: none;
+  padding: 32px 16px;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+#banner .banner-container .search-box button {
+  height: 3.5rem;
+  background-color: #b68c5a;
+  outline: none;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#practice {
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 120px;
+  text-align: center;
+}
+
+#practice > h1 {
+  color: #414040;
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 24px;
+}
+
+#practice > p {
+  color: #707070;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 717px;
+  margin-bottom: 4rem;
+}
+
+#practice .practice-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#practice .practice-container .card {
+  padding: 70px 40px;
+  border: 1px solid #00000015;
+}
+
+.border-t-0 {
+  border-top: 0 !important;
+}
+
+.border-r-0 {
+  border-right: 0 !important;
+}
+
+.border-l-0 {
+  border-left: 0 !important;
+}
+
+.border-b-0 {
+  border-bottom: 0 !important;
+}
+
+.shadow-from-t {
+  box-shadow: inset 0px 50px 100px -30px #00000019;
+}
+
+#practice .practice-container .card img {
+  margin-bottom: 32px;
+}
+
+#practice .practice-container .card h1 {
+  color: #414040;
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 24px;
+}
+
+#practice .practice-container .card p {
+  color: #707070;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 32px;
+}
+
+#client {
+  text-align: center;
+  max-width: 80%;
+  margin: 0 auto 120px;
+}
+
+#client > h1 {
+  color: #414040;
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 24px;
+}
+
+#client > p {
+  color: #707070;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  max-width: 60%;
+  margin: 0 auto 4rem;
+}
+
+#client .review-container {
+  max-width: 100%;
+  height: 500px;
+  text-align: center;
+  background: url("../images/Rectangle\ 7.png"), url("../images/banner.png");
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, cover;
+  background-position: center, center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+  color: #fff;
+}
+
+#client .review-container button {
+  background: none;
+  outline: none;
+  border: 2px solid #ffffff30;
+  padding: 10px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+#client .review-container .reviews {
+  max-width: 80%;
+  text-align: center;
+}
+
+#client .review-container .reviews img {
+  width: 100px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  margin-bottom: 24px;
+}
+
+#client .review-container .reviews h1 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 900;
+  margin-bottom: 4px;
+}
+
+#client .review-container .reviews .client-title {
+  color: #fff;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 32px;
+}
+
+#client .review-container .reviews .detail {
+  color: #f3f3f3;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 32px;
+}
